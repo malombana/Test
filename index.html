@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación TikTok Developers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .verification-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #007bff;
+            margin: 20px 0;
+        }
+        .verification-file {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            word-break: break-all;
+            margin: 10px 0;
+        }
+        .download-link {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+            transition: background-color 0.3s;
+        }
+        .download-link:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 Verificación TikTok Developers</h1>
+        
+        <div class="verification-info">
+            <h2>📋 Información de Verificación</h2>
+            <p>Esta página contiene el archivo de verificación requerido por TikTok Developers para validar la propiedad del dominio.</p>
+            
+            <h3>📄 Archivo de Verificación:</h3>
+            <div class="verification-file">
+                <strong>Nombre del archivo:</strong> tiktok04pO1Fnr2IUMyVVBdoq5ZRSgUfgAFItj.txt<br>
+                <strong>Contenido:</strong> tiktok-developers-site-verification=04pO1Fnr2IUMyVVBdoq5ZRSgUfgAFItj
+            </div>
+            
+            <a href="./tiktok04pO1Fnr2IUMyVVBdoq5ZRSgUfgAFItj.txt" class="download-link" download>
+                📥 Descargar archivo de verificación
+            </a>
+        </div>
+
+        <div class="verification-info">
+            <h2>🔗 Instrucciones de Uso</h2>
+            <ol>
+                <li>Este archivo debe estar accesible en la raíz de tu dominio</li>
+                <li>La URL de verificación será: <code>https://tu-dominio.com/tiktok04pO1Fnr2IUMyVVBdoq5ZRSgUfgAFItj.txt</code></li>
+                <li>TikTok verificará automáticamente el contenido del archivo</li>
+                <li>Una vez verificado, podrás usar las APIs de TikTok Developers</li>
+            </ol>
+        </div>
+
+        <div class="verification-info">
+            <h2>✅ Estado de Verificación</h2>
+            <p>📍 <strong>URL actual del archivo:</strong> <a href="./tiktok04pO1Fnr2IUMyVVBdoq5ZRSgUfgAFItj.txt" target="_blank">Ver archivo de verificación</a></p>
+            <p>🌐 Este sitio está alojado en GitHub Pages y es compatible con la verificación de TikTok Developers.</p>
+        </div>
+
+        <div class="footer">
+            <p>Generado para verificación de TikTok Developers | GitHub Pages</p>
+            <p>📅 Fecha: <span id="current-date"></span></p>
+        </div>
+    </div>
+
+    <script>
+        // Mostrar la fecha actual
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('es-ES');
+        
+        // Verificar que el archivo de verificación esté disponible
+        fetch('./tiktok04pO1Fnr2IUMyVVBdoq5ZRSgUfgAFItj.txt')
+            .then(response => {
+                if (response.ok) {
+                    console.log('✅ Archivo de verificación disponible');
+                } else {
+                    console.log('❌ Error al cargar el archivo de verificación');
+                }
+            })
+            .catch(error => {
+                console.log('❌ Error de red al verificar el archivo:', error);
+            });
+    </script>
+</body>
+</html>
